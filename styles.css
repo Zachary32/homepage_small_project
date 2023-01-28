@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /* this is the font for the heading_cursive_title class made below*/
+
+.img_size{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+    padding: 25px;
+    max-width: 75%;
+}
+
+/*for the bouncing arrow */
+
+.up_down_arrow{
+    display: block;
+    text-decoration:none;
+    font-size:50px;
+    text-align: center;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes bounce {
+    0%   {color:red; top:0px;}
+    25%  {color:brown; top:-10px;}
+    50%  {color:blue; top:0px;}
+    75%  {color:green; top:-10px;}
+    100% {color:black; top:0px;}
+}
+
+.img-fluids{
+    width: 100%;
+    max-height: 75%;
+}
+
+h1 {
+    font-family: "Lucida Handwriting";
+    padding:50px;
+    text-align: center;
+    color: red;
+
+}
+.center{
+    text-align: center;
+    font-size:18px;
+}
+
+.font_size {
+    text-align: center;
+    font-size:22px;
+}
+
+
+.heading_cursive_title{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+#background_homepage {
+    background-color: white;
+    background-image: linear-gradient(white, #00FFFF);
+}
+#background_music {
+    background-color: white;
+    background-image: linear-gradient(white, #00FF00);
+}
+.black_text{
+    color: black;
+}
+
+.img_size_concert {
+    float:right;
+    max-width: 40%;
+    margin:10px;
+}
+
+.pic_text_wrap{
+    text-align: center;
+    text-align: justify;
+    font-size: 18px;
+    display:inline;
+}
+
+.center_button_iframe{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+
+.responsive-img {
+    display:block;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin:5px;
+  }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
